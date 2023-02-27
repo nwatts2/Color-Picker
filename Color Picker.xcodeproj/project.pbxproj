@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4F471A29A2B00A0052E637 /* AddColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C4F471929A2B00A0052E637 /* AddColorView.swift */; };
+		0C56748129A81012005F9018 /* ColorInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C56748029A81012005F9018 /* ColorInputView.swift */; };
+		0C69114329A2DEF100ED8CA4 /* AddPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C69114229A2DEF100ED8CA4 /* AddPaletteView.swift */; };
 		0CA4AA86299FDD570007DC7A /* Color_PickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4AA85299FDD570007DC7A /* Color_PickerApp.swift */; };
-		0CA4AA88299FDD570007DC7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4AA87299FDD570007DC7A /* ContentView.swift */; };
+		0CA4AA88299FDD570007DC7A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4AA87299FDD570007DC7A /* MenuView.swift */; };
 		0CA4AA8A299FDD580007DC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4AA89299FDD580007DC7A /* Assets.xcassets */; };
 		0CA4AA8E299FDD580007DC7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA4AA8D299FDD580007DC7A /* Preview Assets.xcassets */; };
+		0CA4AA98299FE3B80007DC7A /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4AA97299FE3B80007DC7A /* Picker.swift */; };
+		0CA4AA9B299FE3CD0007DC7A /* PickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4AA9A299FE3CD0007DC7A /* PickerViewModel.swift */; };
+		0CA4AA9D299FE3E40007DC7A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA4AA9C299FE3E40007DC7A /* PickerView.swift */; };
+		0CCAE6FB29A01FB600FE3B78 /* PaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCAE6FA29A01FB600FE3B78 /* PaletteView.swift */; };
+		0CCAE6FD29A01FBE00FE3B78 /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCAE6FC29A01FBE00FE3B78 /* ColorView.swift */; };
+		0CCAE6FF29A01FD300FE3B78 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCAE6FE29A01FD300FE3B78 /* Colors.swift */; };
+		0CF6024E29A6952300C5F691 /* RenameColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF6024D29A6952300C5F691 /* RenameColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C4F471929A2B00A0052E637 /* AddColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddColorView.swift; sourceTree = "<group>"; };
+		0C56748029A81012005F9018 /* ColorInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInputView.swift; sourceTree = "<group>"; };
+		0C69114229A2DEF100ED8CA4 /* AddPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaletteView.swift; sourceTree = "<group>"; };
 		0CA4AA82299FDD570007DC7A /* Color Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA4AA85299FDD570007DC7A /* Color_PickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_PickerApp.swift; sourceTree = "<group>"; };
-		0CA4AA87299FDD570007DC7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CA4AA87299FDD570007DC7A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		0CA4AA89299FDD580007DC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA4AA8B299FDD580007DC7A /* Color_Picker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Color_Picker.entitlements; sourceTree = "<group>"; };
 		0CA4AA8D299FDD580007DC7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CA4AA97299FE3B80007DC7A /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		0CA4AA9A299FE3CD0007DC7A /* PickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewModel.swift; sourceTree = "<group>"; };
+		0CA4AA9C299FE3E40007DC7A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		0CCAE6FA29A01FB600FE3B78 /* PaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteView.swift; sourceTree = "<group>"; };
+		0CCAE6FC29A01FBE00FE3B78 /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		0CCAE6FE29A01FD300FE3B78 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		0CF6024D29A6952300C5F691 /* RenameColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenameColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +72,14 @@
 		0CA4AA84299FDD570007DC7A /* Color Picker */ = {
 			isa = PBXGroup;
 			children = (
+				0CA4AA96299FE3730007DC7A /* ViewModels */,
+				0CA4AA95299FE36D0007DC7A /* Views */,
+				0CA4AA94299FE35C0007DC7A /* Models */,
 				0CA4AA85299FDD570007DC7A /* Color_PickerApp.swift */,
-				0CA4AA87299FDD570007DC7A /* ContentView.swift */,
 				0CA4AA89299FDD580007DC7A /* Assets.xcassets */,
 				0CA4AA8B299FDD580007DC7A /* Color_Picker.entitlements */,
 				0CA4AA8C299FDD580007DC7A /* Preview Content */,
+				0CCAE6FE29A01FD300FE3B78 /* Colors.swift */,
 			);
 			path = "Color Picker";
 			sourceTree = "<group>";
@@ -67,6 +90,37 @@
 				0CA4AA8D299FDD580007DC7A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CA4AA94299FE35C0007DC7A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0CA4AA97299FE3B80007DC7A /* Picker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CA4AA95299FE36D0007DC7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CA4AA87299FDD570007DC7A /* MenuView.swift */,
+				0CA4AA9C299FE3E40007DC7A /* PickerView.swift */,
+				0CCAE6FA29A01FB600FE3B78 /* PaletteView.swift */,
+				0CCAE6FC29A01FBE00FE3B78 /* ColorView.swift */,
+				0C4F471929A2B00A0052E637 /* AddColorView.swift */,
+				0CF6024D29A6952300C5F691 /* RenameColorView.swift */,
+				0C69114229A2DEF100ED8CA4 /* AddPaletteView.swift */,
+				0C56748029A81012005F9018 /* ColorInputView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0CA4AA96299FE3730007DC7A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0CA4AA9A299FE3CD0007DC7A /* PickerViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA4AA88299FDD570007DC7A /* ContentView.swift in Sources */,
+				0CA4AA88299FDD570007DC7A /* MenuView.swift in Sources */,
+				0CCAE6FF29A01FD300FE3B78 /* Colors.swift in Sources */,
+				0CA4AA98299FE3B80007DC7A /* Picker.swift in Sources */,
+				0CCAE6FD29A01FBE00FE3B78 /* ColorView.swift in Sources */,
+				0C69114329A2DEF100ED8CA4 /* AddPaletteView.swift in Sources */,
+				0C56748129A81012005F9018 /* ColorInputView.swift in Sources */,
+				0CA4AA9B299FE3CD0007DC7A /* PickerViewModel.swift in Sources */,
+				0C4F471A29A2B00A0052E637 /* AddColorView.swift in Sources */,
+				0CF6024E29A6952300C5F691 /* RenameColorView.swift in Sources */,
+				0CA4AA9D299FE3E40007DC7A /* PickerView.swift in Sources */,
+				0CCAE6FB29A01FB600FE3B78 /* PaletteView.swift in Sources */,
 				0CA4AA86299FDD570007DC7A /* Color_PickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
